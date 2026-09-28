@@ -1,0 +1,57 @@
+
+# Custom attribute to mark source files using KiCad C++ formatting
+[attr]kicad-cpp-source text=auto whitepace=tab-in-indent format.clang-format-kicad
+
+# Custom attribute to mark KiCad's own CMake files
+[attr]kicad-cmake-source text=auto whitespace=tab-in-indent
+
+# Custom attribute for auto-generated sources:
+# * Do not perform whitespace checking
+# * Do not format
+[attr]generated whitespace=-tab-in-indent,-indent-with-non-tab -format.clang-format-kicad
+
+# By default, all C and C++ files conform to KiCad formatting,
+# unless overridden
+*.c         kicad-cpp-source
+*.cpp       kicad-cpp-source
+*.h         kicad-cpp-source
+
+*.cmake     kicad-cmake-source
+*.txt       kicad-cmake-source
+*.md        text=auto
+
+# Compiled bitmap sources
+bitmaps_png/cpp_*/*.cpp     generated
+common/bitmap_info.cpp      generated
+
+# wxFormBuilder-generated files
+**/dialog*/*_base.cpp       generated
+**/dialog*/*_base.h         generated
+**/sim/*_base.cpp           generated
+**/sim/*_base.h             generated
+pcb_calculator/calculator_panels/*_base.cpp    generated
+pcb_calculator/calculator_panels/*_base.h      generated
+
+# Lemon grammars
+common/libeval/grammar.c    generated
+common/libeval/grammar.h    generated
+
+# msdf-atlasgen bitmap font atlas
+common/gal/opengl/bitmap_font_desc.c    generated
+common/gal/opengl/bitmap_font_img.c     generated
+
+# Vendored Eigen headers are upstream sources and must not be reformatted
+thirdparty/eigen/**    -format.clang-format-kicad -whitespace
+
+# Vendored libwmf sources are upstream sources and must not be reformatted
+thirdparty/libwmf/**    -format.clang-format-kicad -whitespace
+
+# Vendored json-schema-validator sources are upstream sources and must not be reformatted
+thirdparty/json_schema_validator/**    -format.clang-format-kicad -whitespace
+
+# Scripts
+*.sh    text eol=lf
+*.bat   text eol=crlf
+
+# Turn off auto-crlf, these files are needed inplace
+*.csv       -text
