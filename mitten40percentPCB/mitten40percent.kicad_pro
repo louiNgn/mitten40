@@ -678,7 +678,7 @@
         "uuid": "4d97bcd4-b797-40db-b476-9202db9dac3f"
       }
     ],
-    "used_designators": "J2-3,D25-48,#PWR28-29,SW25-47,SW49",
+    "used_designators": "SW_BOOT1",
     "variants": []
   },
   "sheets": [
