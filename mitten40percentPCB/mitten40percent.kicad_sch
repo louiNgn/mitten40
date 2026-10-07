@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "4d97bcd4-b797-40db-b476-9202db9dac3f")
 	(paper "A4")
+	(title_block
+		(title "mitten40 PCB")
+		(rev "0")
+		(company "poo poo pee pee corporation")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -12616,7 +12621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x04_P2.54mm"
+		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
 			(at 31.75 135.89 0)
 			(hide yes)
 			(show_name no)
