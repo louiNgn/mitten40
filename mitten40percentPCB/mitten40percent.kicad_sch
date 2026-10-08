@@ -7100,26 +7100,6 @@
 		)
 		(uuid "ff0a8331-d7c6-4d8e-bf2a-92dd0098fe45")
 	)
-	(label "C6"
-		(at 58.42 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0851e7d0-ce10-4486-b250-d94fc83043da")
-	)
-	(label "C12"
-		(at 71.12 148.59 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08871dbc-0560-40e2-8867-bc340d35f995")
-	)
 	(label "USB_D+"
 		(at 67.31 180.34 0)
 		(effects
@@ -7129,6 +7109,16 @@
 			(justify left bottom)
 		)
 		(uuid "0bb81c29-52d9-427a-9266-78825e49d57a")
+	)
+	(label "C0"
+		(at 58.42 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eefad26-3819-4e68-b78f-7b5e62bf688d")
 	)
 	(label "R3"
 		(at 279.4 105.41 0)
@@ -7149,6 +7139,16 @@
 			(justify left bottom)
 		)
 		(uuid "12f9407c-31c2-4af3-a6db-b00c266fb438")
+	)
+	(label "C2"
+		(at 58.42 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1456e3f1-9949-4c80-b81c-75e8ea88918d")
 	)
 	(label "USB_D+"
 		(at 165.1 171.45 0)
@@ -7179,16 +7179,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c48f97a-f60d-4c80-9dc5-4efd99518641")
-	)
-	(label "C10"
-		(at 58.42 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "204fef28-0570-4eb7-8ab1-82d22fac8ca4")
 	)
 	(label "VBAT"
 		(at 35.56 19.05 90)
@@ -7240,16 +7230,6 @@
 		)
 		(uuid "3e31badf-3c96-4de7-be87-7624da8f8061")
 	)
-	(label "C4"
-		(at 58.42 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fce55b4-dbd2-47c5-bf7e-1c5a2a6cba19")
-	)
 	(label "SDA"
 		(at 22.86 82.55 180)
 		(effects
@@ -7269,6 +7249,16 @@
 			(justify right bottom)
 		)
 		(uuid "47ab89dc-9a71-45ea-a464-ae46d07f1a93")
+	)
+	(label "C3"
+		(at 22.86 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4805b67f-43f4-424f-bca4-f3a744e705a2")
 	)
 	(label "JoystickY"
 		(at 63.5 113.03 0)
@@ -7380,6 +7370,16 @@
 		)
 		(uuid "65709ddd-2800-40f6-bdf0-652b93d7eb4c")
 	)
+	(label "C1"
+		(at 58.42 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f938b73-d780-4a66-85e2-602088dec0e9")
+	)
 	(label "MCU_D+"
 		(at 58.42 57.15 0)
 		(effects
@@ -7389,16 +7389,6 @@
 			(justify left bottom)
 		)
 		(uuid "7201f28f-cea9-44d9-a93b-6cfc5f7efe75")
-	)
-	(label "C11"
-		(at 58.42 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77a6de83-0d34-4b5a-b790-4760340a4446")
 	)
 	(label "SCL"
 		(at 22.86 80.01 180)
@@ -7450,6 +7440,26 @@
 		)
 		(uuid "8bed377b-bb4c-4878-aede-5e0cbf2d45c3")
 	)
+	(label "C6"
+		(at 22.86 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cbd7d26-307f-4ab7-8f84-c37601b7c39f")
+	)
+	(label "C10"
+		(at 58.42 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e8dffd9-e8d2-43f6-98e6-1e9c81ad78be")
+	)
 	(label "C3"
 		(at 137.16 24.13 0)
 		(effects
@@ -7480,25 +7490,15 @@
 		)
 		(uuid "a393a0ac-2832-4c5b-a126-bdc8b6f1e7af")
 	)
-	(label "C0"
-		(at 22.86 85.09 180)
+	(label "C4"
+		(at 22.86 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a676f62f-a6cf-4e93-a91d-6e99b3edb272")
-	)
-	(label "C8"
-		(at 58.42 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a75402a1-d3b9-44f0-82d3-1c8378c70501")
+		(uuid "ad3ec710-c664-4bbe-800e-d09b83c652bd")
 	)
 	(label "C2"
 		(at 120.65 24.13 0)
@@ -7509,16 +7509,6 @@
 			(justify left bottom)
 		)
 		(uuid "b02a0f31-158d-488e-88f8-f8419def8077")
-	)
-	(label "C2"
-		(at 22.86 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b695f293-7a8b-48d0-8835-e3310797e299")
 	)
 	(label "C7"
 		(at 203.2 24.13 0)
@@ -7531,14 +7521,14 @@
 		(uuid "b7133f04-7d90-45d5-b913-5d3d3b9a8b94")
 	)
 	(label "C9"
-		(at 58.42 44.45 0)
+		(at 58.42 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c05f1bb8-f376-4893-a03a-db419f403f2f")
+		(uuid "b9ca0dea-72a3-4c1f-b3ce-ccb31a5e59a0")
 	)
 	(label "MCU_D+"
 		(at 57.15 180.34 180)
@@ -7549,16 +7539,6 @@
 			(justify right bottom)
 		)
 		(uuid "c08b05e6-4f84-461b-9d93-77a3991ab253")
-	)
-	(label "C1"
-		(at 22.86 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c09a6e08-07c0-44e1-90b0-8a60bcb3096c")
 	)
 	(label "BOOT0"
 		(at 22.86 31.75 180)
@@ -7580,15 +7560,25 @@
 		)
 		(uuid "c3625f9b-1e07-40ca-b24e-c0998621c656")
 	)
+	(label "C5"
+		(at 22.86 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4b34ecd-27db-4810-80f8-5562ff8e7c7c")
+	)
 	(label "C7"
-		(at 58.42 39.37 0)
+		(at 58.42 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c4a2cf7d-65b8-46ca-88bb-6a52e53d1bc8")
+		(uuid "c5234ff4-b9f9-4f40-a5db-aa04a7096b88")
 	)
 	(label "C9"
 		(at 236.22 24.13 0)
@@ -7600,16 +7590,6 @@
 		)
 		(uuid "c756657d-1639-4f85-b52f-d32c6a391e49")
 	)
-	(label "C3"
-		(at 22.86 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7ced204-1a7c-441d-9a40-5f9256584a07")
-	)
 	(label "R1"
 		(at 279.4 64.77 0)
 		(effects
@@ -7619,6 +7599,16 @@
 			(justify left bottom)
 		)
 		(uuid "c8984d82-d0bb-4c88-8bb9-f20389f2a77b")
+	)
+	(label "C8"
+		(at 58.42 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9271104-717e-4088-bdf1-7664b16415e3")
 	)
 	(label "VDDIO2"
 		(at 45.72 19.05 90)
@@ -7650,16 +7640,6 @@
 		)
 		(uuid "d6f89c65-6504-48ed-b2c6-ad577e17725d")
 	)
-	(label "C5"
-		(at 58.42 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd181356-85e4-46b7-b15f-6da5021dbdc6")
-	)
 	(label "SDA"
 		(at 26.67 124.46 180)
 		(effects
@@ -7689,6 +7669,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4c17615-2781-41fb-9116-81be66abd9d1")
+	)
+	(label "C11"
+		(at 58.42 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea5460f9-1d13-4186-83cc-e5e6cc5eeb16")
 	)
 	(label "SCL"
 		(at 26.67 121.92 180)
