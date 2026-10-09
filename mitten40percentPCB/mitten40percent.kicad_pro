@@ -63,14 +63,59 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|40660000|35140000|6f559ef5-2942-432b-b160-2e41530808d1|2f4fb423-8ca4-4e0e-9bcf-3af0b0b120f0",
+          ""
+        ],
+        [
+          "hole_clearance|40660000|35140000|e812866f-e180-4b00-ac8f-30786ab00383|2f4fb423-8ca4-4e0e-9bcf-3af0b0b120f0",
+          ""
+        ],
+        [
+          "hole_clearance|46760000|35140000|13858112-4207-4955-8b88-536c47c1b1ce|a73c3867-7eb4-432c-b752-9986ad095fa4",
+          ""
+        ],
+        [
+          "hole_clearance|46760000|35140000|adb3e7e5-8a5c-4861-8796-455578e3608d|a73c3867-7eb4-432c-b752-9986ad095fa4",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|32310000|97300000|a317b71e-ef19-4f11-a43a-f3e5b7d7e24c|00000000-0000-0000-0000-000000000000",
+          "fixed so that i can actually use the damn footprint"
+        ],
+        [
+          "silk_over_copper|23864500|104920000|5883325a-1bd1-4241-a09b-2d7ef548aba3|7bf3f257-b0b8-42eb-b1fb-b9bb8a37b909",
+          "seen"
+        ],
+        [
+          "silk_over_copper|23864500|89680000|6d968a29-222b-4181-b81b-eaedadcbb2bb|bc2a7ecc-36e7-4a4e-a939-f67462a87203",
+          ""
+        ],
+        [
+          "silk_over_copper|37199500|104920000|84110e47-26bc-4c61-8f1a-634c0f41b40e|6896e4d8-d2c1-4d90-8487-9af33d60a7da",
+          "seen"
+        ],
+        [
+          "silk_over_copper|37199500|89680000|c3ddcd57-2fdd-409d-a7cb-a5c2beba6f35|d1c02997-c579-455c-bf3f-288fba1f239e",
+          ""
+        ],
+        [
+          "silk_over_copper|38660000|104920000|15aca381-0dd9-4428-8ad4-67f6959c2fed|6896e4d8-d2c1-4d90-8487-9af33d60a7da",
+          ""
+        ],
+        [
+          "silk_over_copper|38660000|89680000|d00a1cad-d94e-4088-90af-d3fe546b81c8|d1c02997-c579-455c-bf3f-288fba1f239e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -678,7 +723,7 @@
         "uuid": "4d97bcd4-b797-40db-b476-9202db9dac3f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR28",
     "variants": []
   },
   "sheets": [
