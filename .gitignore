@@ -85,7 +85,6 @@ pcbnew/Info.plist
 *~
 .idea
 .DS_Store
-*.png
 *.kiface
 *.o
 *.o.*
