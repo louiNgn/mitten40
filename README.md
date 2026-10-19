@@ -23,4 +23,4 @@ Expect coming changes to C scripts seen in the project, its untested currently!
 
 The mitten40 utilizes a 3D printed gasket-mount case secured with M3 heat set inserts and screws.
 
-[View bill of materials here!](production/BOM_PCBAssembly.csv)
+[View bills of materials here!](BOM)
