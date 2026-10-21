@@ -3,9 +3,17 @@
 
 The mitten40 is a 46-key, split-spacebar ortholinear keyboard with a customizable OLED screen and joystick.
 
-![board in pcb editor](image.png)
-![PCB preview back](image-2.png)
-![PCB preview front](image-3.png)
+### PCB Render
+<img width="1667" height="524" alt="Screenshot 2026-10-21 155324" src="https://github.com/user-attachments/assets/f3988287-3784-4d5c-8c37-e7b7e19abae5" />
+<img width="1675" height="527" alt="Screenshot 2026-10-21 155359" src="https://github.com/user-attachments/assets/67d3e02a-15a0-43c1-9720-5a96eac83dfd" />
+
+
+### PCB Layout
+<img width="1182" height="373" alt="Screenshot 2026-10-21 145803" src="https://github.com/user-attachments/assets/9e58601c-b155-49e9-a90d-babd41b99d22" />
+<img width="1197" height="385" alt="Screenshot 2026-10-21 155228" src="https://github.com/user-attachments/assets/76e5ab89-1831-478a-b50c-7fe207a76dfe" />
+
+### Schematic
+<img width="1206" height="828" alt="Screenshot 2026-10-21 145454" src="https://github.com/user-attachments/assets/bab9b79e-4d0b-43ae-9e17-c0369e3e43d9" />
 
 # key layout
 <img width="818" height="280" alt="image" src="https://github.com/user-attachments/assets/d28f19c5-83ff-419c-8beb-45b92e04a013" />
