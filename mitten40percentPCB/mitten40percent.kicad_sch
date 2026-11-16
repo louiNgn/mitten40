@@ -5556,10 +5556,6 @@
 		(uuid "1d7761fe-25d5-4e60-9acc-85e4290f3230")
 	)
 	(no_connect
-		(at 62.23 29.21)
-		(uuid "20624e8a-1095-4b32-be86-6542e0ffd29f")
-	)
-	(no_connect
 		(at 26.67 64.77)
 		(uuid "290b6e9a-d18d-4d47-8c47-4a44d786d777")
 	)
@@ -5574,6 +5570,10 @@
 	(no_connect
 		(at 26.67 67.31)
 		(uuid "6c918fc1-cf15-490c-be18-234ed8d55445")
+	)
+	(no_connect
+		(at 62.23 49.53)
+		(uuid "85544cd2-01cc-4d7a-abbc-ac8c46b92465")
 	)
 	(no_connect
 		(at 26.67 59.69)
@@ -5600,8 +5600,8 @@
 		(uuid "d7ef7c1d-3021-4225-a826-12af27279aaa")
 	)
 	(no_connect
-		(at 62.23 26.67)
-		(uuid "f7734240-572f-4f81-8f25-a4193dde9aa4")
+		(at 62.23 46.99)
+		(uuid "f5aeaac0-c909-4fc9-b533-a62d2243335c")
 	)
 	(wire
 		(pts
@@ -7364,7 +7364,7 @@
 		(uuid "53317738-eca1-406f-8936-ba0be76d6898")
 	)
 	(label "JoystickY"
-		(at 62.23 46.99 0)
+		(at 62.23 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7714,7 +7714,7 @@
 		(uuid "e2381c00-cd9f-460a-b2bf-87e170db0081")
 	)
 	(label "JoystickX"
-		(at 62.23 49.53 0)
+		(at 62.23 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
